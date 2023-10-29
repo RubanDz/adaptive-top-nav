@@ -1,0 +1,32 @@
+body {margin: 0;}
+#block_1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+}
+#block_1 li {
+    float: left;
+}
+#block_1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#block_1 li a:hover:not(#block_1) {background-color: #111;}
+#block_1 li a.activ {background-color: #04AA6d;}
+#block_1 li.noactiv {float: right;}
+
+.text {text-align: center;}
+
+@media  and (max-width: 600px;) {
+    #block_1 li.noactiv,
+    #block_1 li {float: none;}
+}
+    
+
+
+
